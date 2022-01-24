@@ -1,0 +1,24 @@
+body{
+  background-color:rgb(35,35,58);
+  color:white;
+}
+p{
+  animation-duration: 3s;
+  animation-name:slidein;
+  font-size: 20px;
+}
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  75%{
+    font-size: 300%;
+    margin-left:25%;
+    width: 150%;
+  }
+  to{
+    margin-left: 0%;
+    width:100%;
+  }
+}
